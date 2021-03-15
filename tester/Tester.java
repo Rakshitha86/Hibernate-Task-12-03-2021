@@ -11,8 +11,6 @@ import com.xworkz.service.CameraServiceImpl;
 public class Tester {
 
 	public static void main(String[] args) {
-		String excelPath="./Camera/Excel.xldx";
-		String sheetName="CameraDetails";
 		
 		CameraDTO cameraDTO = new CameraDTO("Sony", "White", 20000, 2);
 		CameraDAO cameraDAO = new CameraDAOImpl();
